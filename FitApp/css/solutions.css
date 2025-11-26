@@ -8,3 +8,14 @@
 	content:"🔥"; 
     position:absolute;
     left: 269px;
+}
+.stats-container .stats-grid:nth-child(3) .stat-number{
+	color: white;
+}
+.stats-container .stats-grid:nth-child(3) .stat-label{
+	color: white;
+}
+.stats-container .stats-grid:nth-child(3){
+ 
+	background-color:rgb(105 116 220);
+}
