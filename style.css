@@ -32,12 +32,12 @@ body {
 }
 
 .stats-grid{
-	transition: 0,2s ease;
+	transition: 0.2s ease;
 }
 
 .stats-grid:hover{
-	transform: scale( 0.98);
-    opacity: 0.95 ;
+	transform: scale( 0.28);
+    opacity: 0.35 ;
 }   
 
 
