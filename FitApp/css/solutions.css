@@ -1,0 +1,10 @@
+
+/* 1 solution */
+.stats-container:first-child .stat-number{
+	position: relative;
+}   
+ 
+.stats-container .stats-grid:first-child .stat-number::before{
+	content:"🔥"; 
+    position:absolute;
+    left: 269px;

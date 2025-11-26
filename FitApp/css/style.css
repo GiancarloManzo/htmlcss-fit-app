@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-}
+}  
 
 body {
 	font-family: Arial, sans-serif;
@@ -30,7 +30,35 @@ body {
 	opacity: 0.9;
 	font-size: 1rem;
 }
+.stats-container .stats-grid:nth-child(3) .stat-number{
+	color: white;
+}
+.stats-container .stats-grid:nth-child(3) .stat-label{
+	color: white;
+}
+.stats-container .stats-grid:nth-child(3){
+ 
+	background-color:rgb(105 116 220);
+}
+  
 
+
+
+ 
+
+
+
+
+.stats-container:first-child .stat-number{
+	position: relative;
+}   
+ 
+.stats-container .stats-grid:first-child .stat-number::before{
+	content:"🔥"; 
+    position:absolute;
+    left: 269px;
+
+}   
 /* Stats Cards */
 .stats-container {
 	padding: 20px;
