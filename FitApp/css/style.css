@@ -30,6 +30,18 @@ body {
 	opacity: 0.9;
 	font-size: 1rem;
 }
+
+.stats-grid{
+	transition: 0,2s ease;
+}
+
+.stats-grid:hover{
+	transform: scale( 0,98);
+    opacity: 0,95 ;
+}   
+
+
+
 .stats-container .stats-grid:nth-child(3) .stat-number{
 	color: white;
 }
@@ -41,14 +53,6 @@ body {
 	background-color:rgb(105 116 220);
 }
   
-
-
-
- 
-
-
-
-
 .stats-container:first-child .stat-number{
 	position: relative;
 }   
